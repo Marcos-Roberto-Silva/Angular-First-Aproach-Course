@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a [routerLink]="['/courses']" class="navbar-brand">Course Manager</a>
+
+  <button
+    type="button"
+    class="navbar-toggle"
+    data-toggle="collapse"
+    data-target="#navbarSupportContent"
+    aria-controls="navbarSupportContent"
+    aria-expanded="false"
+    aria-label="toggle navigation"
+  >
+    <span class="navbar-toggle-icon">xablau</span>
+  </button>
+
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item">
+            <a [routerLink]="['/courses']" routerLinkActive="active" routerLinkActive="router-link-active"  class="nav-link">Courses</a>
+        </li>
+    </ul>
+        
+  </div>
+</nav>
